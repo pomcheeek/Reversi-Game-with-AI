@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		43329A672DA6F237006A12E4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 43329A662DA6F237006A12E4 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		430ED75F2CE2AFC200117FF9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		430ED74E2CE2AFC100117FF9 /* ReversiAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReversiAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		430ED75E2CE2AFC200117FF9 /* ReversiAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReversiAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		430ED7682CE2AFC200117FF9 /* ReversiAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReversiAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43329A662DA6F237006A12E4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -65,6 +70,7 @@
 		430ED7452CE2AFC100117FF9 = {
 			isa = PBXGroup;
 			children = (
+				43329A662DA6F237006A12E4 /* README.md */,
 				430ED7502CE2AFC100117FF9 /* ReversiAI */,
 				430ED74F2CE2AFC100117FF9 /* Products */,
 			);
@@ -194,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43329A672DA6F237006A12E4 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
